@@ -1,0 +1,13 @@
+.textbox__advertencia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: auto;
+    height: 18px;
+    left: 13%;
+    top: 473px;
+}
+

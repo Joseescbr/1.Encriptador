@@ -1,0 +1,24 @@
+.resultBox__mensaje {
+  
+    position: absolute;
+    width: 300px;
+    height: 520px;
+    left: 60px;
+    top: 52px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    /* or 36px */
+    resize: none;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+    border: none;
+    background: transparent;
+}
+.resultBox__mensaje:focus { 
+  border: none;
+  outline: none;
+ }

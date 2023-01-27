@@ -1,0 +1,32 @@
+.resultBox h3 {
+
+    position: static;
+    width: 336px;
+    height: 48px;
+    left: 0px;
+    top: 74px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Gray/gray-300 */
+
+    color: #495057;
+    background: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/1.logotipo.css">
+    <link rel="stylesheet" href="css/2.textBox.css">
+    <link rel="stylesheet" href="css/3.textbox__advertencia.css">
+    <link rel="stylesheet" href="css/4.imagenAlerta.css">
+    <link rel="stylesheet" href="css/5.label.css">
+    <link rel="stylesheet" href="css/6.boton.css">
+    <link rel="stylesheet" href="css/7.boton__encriptar.css">
+    <link rel="stylesheet" href="css/8.boton__desencriptar.css">
+    <link rel="stylesheet" href="css/9.resultBox.css">
+    <link rel="stylesheet" href="css/10.resultBox__desaparece.css">
+    <link rel="stylesheet" href="css/11.resultBox_h2.css"> 
+    <link rel="stylesheet" href="css/12.resultBox_h3.css">
+    <link rel="stylesheet" href="css/13.resultBox__mensaje.css">
+    <link rel="stylesheet" href="css/14.boton__copiar.css">
+    
+    
+</head>
+
+<body>
+    <main class="main">
+        <img src="imagenes/logo.png" class="logotipo" alt="logotipo">
+        <section class="textbox">
+            <form action="">
+                <textarea name="textbox__textarea" class="textbox__textarea" id="textbox__textarea"
+                    placeholder="Digite su texto" cols="30" rows="10"></textarea>
+                <div class="textbox__advertencia">
+                    <img src="imagenes/!.png" class="imagenAlerta" alt="signo de admiracion">
+                    <label for="">solo letras minusculas y sin acentos</label>
+                </div>
+                <div class="boton">
+                    <input class="boton__encriptar" type="button" value="Encriptar" id="boton__encriptar">
+                    <input class="boton__desencriptar" type="button" value="Desencriptar" id="boton__desencriptar">
+                </div>
+            </form>
+        </section>
+
+        <section class="resultBox">
+            <div id="resultBox__desaparece" class="resultBox__desaparece">
+                <img class="imagen-caja" src="imagenes/mensaje.svg">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <h3>Ingresa el texto que desees encriptar o desencriptar.</h3>
+            </div>
+            <div id="resultBox__aparece">
+                <textarea class="resultBox__mensaje" type="text" id="resultBox__mensaje" placeholder="Ningún mensaje"></textarea>
+                <input class="boton__copiar" type="submit" value="Copiar" id="boton__copiar">
+            </div>
+        </section>
+    </main>
+    <script src="JavaScript/Aparece-Desaparece.js"></script>
+</body>
+</html>

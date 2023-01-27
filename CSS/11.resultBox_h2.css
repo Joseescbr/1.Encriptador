@@ -1,0 +1,31 @@
+/*caja de mensaje que aparece y desaparece*/
+.resultBox h2 {
+    position: static;
+    width: 336px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 120%;
+    /* or 29px */
+
+    text-align: center;
+
+    /* Gray/gray-500 */
+
+    color: #343A40;
+    background: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}

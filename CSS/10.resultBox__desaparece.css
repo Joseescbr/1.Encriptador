@@ -1,0 +1,13 @@
+.resultBox__desaparece,.resultBox__desaparece img {
+
+    padding-top: 40px;
+    background: #FFFFFF;
+    position: relative;
+    bottom: 54px;
+}
+
+/*pendiente de revisar pues puede ocasionar problemas*/
+
+/* al poner coma y punto. al agregar la clase obutuvo el comportamiento deseado*/
+
+

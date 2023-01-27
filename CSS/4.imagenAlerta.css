@@ -1,0 +1,14 @@
+.imagenAlerta{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+
+/*
+.resultBox, .resultBox img {
+    padding-top: 40px;
+    background: #FFFFFF;
+  }
