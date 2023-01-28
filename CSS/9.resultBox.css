@@ -1,5 +1,4 @@
 .resultBox {
-    /*caja donde aparece el mensaje encriptado y desencriptado*/
     position: absolute;
     width: 400px;
     height: 585px;
@@ -8,9 +7,7 @@
     padding-left: 20px;
     padding-top: 80px;
 
-    /* color de la caja de respuesta*/
     background: #FFFFFF;
-    /*bordes y sombra de la caja*/
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
 }

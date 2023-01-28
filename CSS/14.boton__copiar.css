@@ -10,7 +10,6 @@
   left: 25px;
   top: 490px;
 
-/* Dark blue/dark-blue-300 */
 
   border: 1px solid #0A3871;
   box-sizing: border-box;
@@ -22,12 +21,10 @@
   line-height: 19px;
   text-align: center;
   
-  /* Dark blue/dark-blue-300 */
   
   color: #0A3871;
   
   
-  /* Inside Auto Layout */
   
   flex: none;
   order: 0;

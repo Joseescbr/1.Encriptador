@@ -10,16 +10,13 @@
     left: 352px;
     top: 0px;
 
-    /* Light gray */
 
     background: #D8DFE8;
-    /* Dark blue/dark-blue-300 */
 
     border: 1px solid #0A3871;
     box-sizing: border-box;
     border-radius: 24px;
 
-    /* Inside Auto Layout */
 
     flex: none;
     order: 1;
