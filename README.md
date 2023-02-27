@@ -6,7 +6,7 @@ tabla de sustitución predefinida._
 
 ## Comenzando 🚀
 
-_Para ver como funciona el proyecto visita: [Encriptador](https://joseescbr.githug.io/1.Encriptador/)_
+_Para ver como funciona el proyecto visita: [Encriptador](https://joseescbr.github.io/1.Encriptador/)_
 
 ## Construido con 🛠️
 
